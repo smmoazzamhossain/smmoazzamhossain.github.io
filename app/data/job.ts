@@ -1,15 +1,10 @@
-import FusionsoftLogo from "../assets/images/fusionsoft.svg";
-import TeamParallaxLogo from "../assets/images/team-parallax.png";
-import B2mLogo from "../assets/images/b2m.png";
-import BrandomeLogo from "../assets/images/brandome.png";
-
 export const jobs = [
     {
         _id: 1,
         name: "Fusionsoft",
         jobTitle: "Senior Software Engineer (Remote)",
         location: "Melbourne, Victoria, Australia",
-        logo: FusionsoftLogo,
+        logo: '/public/fusionsoft.svg',
         url: "https://www.fusionsoft.com.au/",
         startDate: "Jan 01, 2023",
         endDate: null,
@@ -24,7 +19,7 @@ export const jobs = [
         name: "Team Parallax",
         jobTitle: "Founder & Technical Lead",
         location: "Mohammadpur, Dhaka, Bangladesh",
-        logo: TeamParallaxLogo,
+        logo: '/public/team-parallax.png',
         url: "https://www.team-parallax.com/",
         startDate: "April 20, 2020",
         endDate: null,
@@ -39,7 +34,7 @@ export const jobs = [
         name: "Software Engineer (Remote)",
         jobTitle: "Fusionsoft",
         location: "Melbourne, Victoria, Australia",
-        logo: FusionsoftLogo,
+        logo: '/public//fusionsoft.svg',
         url: "https://www.fusionsoft.com.au/",
         startDate: "Feb 01, 2020",
         endDate: "Dec 31, 2022",
@@ -54,7 +49,7 @@ export const jobs = [
         name: "PHP Developer",
         jobTitle: "B2M Technologies Ltd",
         location: "Dhanmondi, Dhaka, Bangladesh",
-        logo: B2mLogo,
+        logo: '/public/b2m.png',
         url: "http://b2m-tech.com/",
         startDate: "Mar 03, 2018",
         endDate: "Jan 31, 2020",
@@ -69,7 +64,7 @@ export const jobs = [
         name: "Web Application Developer",
         jobTitle: "Brandome",
         location: "Mohammadpur, Dhaka, Bangladesh",
-        logo: BrandomeLogo,
+        logo: '/public/brandome.png',
         url: "https://brando-me.com/",
         startDate: "Dec 20, 2016",
         endDate: "Feb 28, 2018",

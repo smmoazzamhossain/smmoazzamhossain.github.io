@@ -4,9 +4,6 @@ import EmptyState from "../shared/EmptyState";
 import {projects} from '../../data/project';
 import { SiAwsorganizations } from "react-icons/si";
 import { FaCalendarAlt } from "react-icons/fa";
-
-const fallbackImage: string = "../../assets/images/not-found.jpg";
-
 export default async function Posts() {
     return (
         <section>
@@ -20,7 +17,7 @@ export default async function Posts() {
                             >
                                 <div className="relative lg:w-[450px] lg:h-52 w-full h-56 overflow-clip">
                                     <Image
-                                        src={project.banner || fallbackImage}
+                                        src={project.banner || '/public/not-found.jpg'}
                                         className="dark:bg-zinc-800 bg-zinc-100 rounded-md object-cover group-hover:scale-125 duration-300"
                                         alt={project.name}
                                         layout="fill"

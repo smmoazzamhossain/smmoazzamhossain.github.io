@@ -1,5 +1,3 @@
-import profileAvatar from "../assets/images/avatar.jpg";
-
 export const profile = {
     id: 1,
     name: "Moazzam Hossain",
@@ -17,7 +15,7 @@ export const profile = {
         Beyond learning, I enjoy writing technical articles and creating projects that both inspire and benefit fellow developers. 
     `,
     resume: 'https://drive.google.com/file/d/1tBPTuiRzeH_ZBNtiDnATDr7hHcMbqhHv/view?usp=sharing',
-    avatar: profileAvatar,
+    avatar: '/public/avatar.jpg',
     status: "social",
 };
   

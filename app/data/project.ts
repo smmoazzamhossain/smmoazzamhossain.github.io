@@ -1,26 +1,10 @@
-import RefineProBanner from "../assets/images/refinePro.jpeg";
-import GraceviewBanner from "../assets/images/graceview.jpeg";
-import ArgosBanner from "../assets/images/ArgosBanner.png";
-import FourthLineBanner from "../assets/images/FourthlineBanner.png";
-import OcmpBanner from "../assets/images/ocmp.jpeg";
-import SportianzBanner from "../assets/images/SportianzBanner.png";
-import ShareBridgeBanner from "../assets/images/graceview.jpeg";
-import EzyStockBanner from "../assets/images/EzystockBanner.png";
-import CrickmatchBanner from "../assets/images/CrickmatchBanner.jpeg";
-import EcommerceBanner from "../assets/images/EcommerceBanner.jpeg";
-import PkcsbdBanner from "../assets/images/PkcsbdBanner.jpeg";
-import PosBanner from "../assets/images/PosBanner.png";
-import SmsBanner from "../assets/images/SmsBanner.png";
-import DoctorBanner from "../assets/images/DoctorBanner.png";
-import CrmBanner from "../assets/images/CrmBanner.png";
-
 export const projects = [
     {
         _id: 1,
         name: `Oil Production & Sales Management (RefinePro)`,
         jobTitle: "Founder & Technical Lead",
         company: "Team Parallax",
-        banner: RefineProBanner,
+        banner: '/public/refinePro.jpeg',
         url: "https://www.sgflerp.top/",
         compliation_date: null,
         category: ['web'],
@@ -35,7 +19,7 @@ export const projects = [
         name: `Regulatory Compliance - Graceview`,
         jobTitle: "Senior Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: GraceviewBanner,
+        banner: '/public/graceview.jpeg',
         url: "https://graceview.ai/",
         compliation_date: null,
         category: ['web'],
@@ -49,7 +33,7 @@ export const projects = [
         name: `Financial Services Compliance (Argos)`,
         jobTitle: "Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: ArgosBanner,
+        banner: '/public/ArgosBanner.png',
         url: "https://argos-reg.tech/",
         compliation_date: "Jul 2022",
         category: ['web'],
@@ -64,7 +48,7 @@ export const projects = [
         name: `Fourth Line`,
         jobTitle: "Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: FourthLineBanner,
+        banner: '/public/FourthlineBanner.png',
         url: "https://fourth-line.com.au/",
         compliation_date: "May 2021",
         category: ['web'],
@@ -78,7 +62,7 @@ export const projects = [
         name: `Owner Corporation Management [Web + Apps]`,
         jobTitle: "Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: OcmpBanner,
+        banner: '/public/ocmp.jpeg',
         url: "https://www.ocmp.com.au/",
         compliation_date: "Dec 2020",
         category: ['web'],
@@ -93,7 +77,7 @@ export const projects = [
         name: `Sportianz`,
         jobTitle: "Senior Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: SportianzBanner,
+        banner: '/public/SportianzBanner.png',
         url: "https://sportianz.com/",
         compliation_date: "Aug 2023",
         category: ['web'],
@@ -108,7 +92,7 @@ export const projects = [
         name: `Share Bridge`,
         jobTitle: "Senior Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: ShareBridgeBanner,
+        banner: '/public/SharebridgeBanner.jpeg',
         url: "https://nfp.conceptify.com.au/",
         compliation_date: "Dec 2023",
         category: ['web'],
@@ -122,7 +106,7 @@ export const projects = [
         name: `Stock Management Apps`,
         jobTitle: "Senior Software Engineer (Remote)",
         company: "Fusionsoft",
-        banner: EzyStockBanner,
+        banner: '/public/EzystockBanner.png',
         url: "https://play.google.com/store/apps/details?id=com.pgpaper",
         compliation_date: "Mar 2023",
         category: ['app'],
@@ -136,7 +120,7 @@ export const projects = [
         name: `Live Cricket Score`,
         jobTitle: "Founder & Technical Lead",
         company: "Team Parallax",
-        banner: CrickmatchBanner,
+        banner: '/public/CrickmatchBanner.jpeg',
         url: "https://www.crick-match.com/",
         compliation_date: "Apr 2023",
         category: ['web'],
@@ -149,7 +133,7 @@ export const projects = [
         name: `Ecommerce`,
         jobTitle: "Founder & Technical Lead",
         company: "Team Parallax",
-        banner: EcommerceBanner,
+        banner: '/public/EcommerceBanner.jpeg',
         url: "https://www.bikroybazaar.com/",
         compliation_date: "Feb 2022",
         category: ['web'],
@@ -164,7 +148,7 @@ export const projects = [
         name: `Talent Hunt System (PKCSBD) [Web + Apps]`,
         jobTitle: "Founder & Technical Lead",
         company: "Team Parallax",
-        banner: PkcsbdBanner,
+        banner: 'Talent Hunt Program',
         url: "https://pkcs-bd.org/",
         compliation_date: "May 2021",
         category: ['web'],
@@ -178,7 +162,7 @@ export const projects = [
         name: `Point Of Sale`,
         jobTitle: "PHP Developer",
         company: "B2M Technologies Ltd",
-        banner: PosBanner,
+        banner: '/public/PosBanner.png',
         url: "http://erp.komdam.com/",
         compliation_date: "Jan 2020",
         category: ['web'],
@@ -193,7 +177,7 @@ export const projects = [
         name: `SMS Gateway`,
         jobTitle: "PHP Developer",
         company: "B2M Technologies Ltd",
-        banner: SmsBanner,
+        banner: '/public/SmsBanner.png',
         url: "http://bulk.b2m-tech.com/",
         compliation_date: "Sep 2018",
         category: ['web'],
@@ -206,7 +190,7 @@ export const projects = [
         name: `Doctor Appointment System (ProdocApp)`,
         jobTitle: "Web Application Developer",
         company: "Brandome",
-        banner: DoctorBanner,
+        banner: '',
         url: "https://prodocapp.com/",
         compliation_date: "Feb 2018",
         category: ['web'],
@@ -221,7 +205,7 @@ export const projects = [
         name: `Car Rental System (Jaadcar)`,
         jobTitle: "Web Application Developer",
         company: "Brandome",
-        banner: CrmBanner,
+        banner: 'CrmBanner',
         url: "https://www.apsvie.com/",
         compliation_date: "Jul 2017",
         category: ['web'],

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import duckImage from "../../assets/images/searching-duck.gif";
 
 type props = {
   title: string;
@@ -13,7 +12,7 @@ export default function NotFoundComponent({ title, description }: props) {
                 <Image
                     width={80}
                     height={80}
-                    src={duckImage}
+                    src={'/public/searching-duck.gif'}
                     alt="Yellow duck searching"
                 />
 

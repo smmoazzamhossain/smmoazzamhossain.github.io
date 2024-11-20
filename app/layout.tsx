@@ -2,8 +2,8 @@ import "../app/styles/globals.css";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { incognito } from "./assets/font/font";
-import { gitlabmono } from "./assets/font/font";
+import { incognito } from "@/app/assets/font/font";
+import { gitlabmono } from "@/app/assets/font/font";
 import Navbar from "./components/global/Navbar";
 import Footer from "./components/global/Footer";
 import { Providers } from "./providers";
@@ -18,7 +18,7 @@ const options = {
     title: "Moazzam Hossain | Software Engineer",
     description: "Moazzam Hossain is a Software Engineer and Technical Writer who is passionate about building solutions and contributing to open source communities",
     url: "https://moazzam.me",
-    ogImage: "./assets/images/logo.png",
+    ogImage: "/public/logo.png",
 };
 
 export const metadata: Metadata = {

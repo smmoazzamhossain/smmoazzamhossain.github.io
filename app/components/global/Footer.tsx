@@ -1,5 +1,4 @@
 import Image from "next/image";
-import nextjslogo from "../../assets/images/nextjs.svg";
 import UnmountStudio from "./Unmount";
 
 export default function Footer() {
@@ -18,7 +17,7 @@ export default function Footer() {
                                     className="flex items-center gap-x-2 dark:text-white text-zinc-600 hover:underline"
                                 >
                                     <Image
-                                        src={nextjslogo}
+                                        src={'/public/nextjs.svg'}
                                         width={20}
                                         height={20}
                                         alt="nextjs logo"
